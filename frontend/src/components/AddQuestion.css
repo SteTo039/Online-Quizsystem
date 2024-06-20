@@ -1,0 +1,55 @@
+.add-question-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.add-question-form h2 {
+    margin-bottom: 20px;
+}
+
+.add-question-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.add-question-form label {
+    margin-right: 10px;
+}
+
+.add-question-form input,
+.add-question-form select {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+.buttons button[type="button"] {
+    background-color: #dc3545;
+}
+
+.buttons button[type="button"]:hover {
+    background-color: #c82333;
+}

@@ -1,0 +1,209 @@
+.room-code label,
+.quiz-type label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.room-code input,
+.quiz-type input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.room-code button,
+.add-question,
+.view-catalog {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/*.quiz-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+*/
+.quiz-type input[type="radio"] {
+    margin: 10px 0;
+}
+
+.quiz-type label {
+    margin: 0 5px;
+}
+
+.quiz-type input[type="text"] {
+    margin: 5px 0;
+}
+
+.difficulty-level {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.difficulty-level button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    color: #007BFF;
+}
+
+.difficulty-level button:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+.create-room,
+.view-catalog {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.create-room:hover,
+.view-catalog:hover {
+    background-color: #0056b3;
+}
+
+.create-room {
+    background-color: #007BFF;
+}
+
+.view-catalog {
+    background-color: #007BFF;
+}
+
+.room-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto; /* Center the div itself */
+    padding: 20px; /* Add some padding for spacing */
+    border: 1px solid #ccc; /* Optional: Add a border for visual clarity */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    width: 300px; /* Set a fixed width for the container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for depth */
+}
+
+.room-code label,
+.room-code input,
+.room-code button {
+    margin-bottom: 10px; /* Space out each element */
+}
+
+.quiz-type {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* Add space between the two groups */
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.group input[type="text"] {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 150px;
+    text-align: center;
+}
+
+.group label {
+    margin-bottom: 5px;
+}
+
+.group input[type="radio"] {
+    margin-bottom: 10px;
+}
+
+
+.subject {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.subject label {
+    margin-bottom: 10px;
+}
+
+.subject select {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: white;
+    color: #007BFF;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-appearance: none; /* Remove default arrow for webkit browsers */
+    -moz-appearance: none; /* Remove default arrow for Firefox */
+    appearance: none; /* Remove default arrow for modern browsers */
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23007BFF" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: center;
+    width: 200px;
+}
+
+.subject select:hover {
+    background-color: #e6f2ff; /* Slightly change background on hover */
+}
+
+.subject select:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a blue shadow on focus */
+}
+
+
+.create-room-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; /* Add some margin on top for spacing */
+}
+
+
+.questions-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Add space between the buttons */
+    margin-top: 20px; /* Add some margin on top for spacing */
+}
+
+.questions-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.5; /* Ensures consistent text alignment */
+    display: inline-block; /* Ensures buttons are displayed inline */
+    vertical-align: middle; /* Ensures vertical alignment */
+}

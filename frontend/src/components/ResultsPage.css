@@ -1,0 +1,39 @@
+.results-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.results-page h2 {
+    margin-bottom: 20px;
+}
+
+.results-page table {
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.results-page th, .results-page td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.results-page th {
+    background-color: #007bff;
+    color: white;
+}
+
+.results-page button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.results-page button:hover {
+    background-color: #0056b3;
+}

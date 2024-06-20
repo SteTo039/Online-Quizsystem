@@ -1,0 +1,48 @@
+.room-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.room-page h2 {
+    margin-bottom: 20px;
+}
+
+.room-page ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.room-page ul li {
+    margin: 5px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+}
+
+.buttons button[type="button"] {
+    background-color: #dc3545;
+}
+
+.buttons button[type="button"]:hover {
+    background-color: #c82333;
+}

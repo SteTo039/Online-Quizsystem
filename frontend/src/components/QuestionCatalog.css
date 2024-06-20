@@ -1,0 +1,40 @@
+.question-catalog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.question-catalog h2 {
+    margin-bottom: 20px;
+}
+
+.question-catalog table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.question-catalog th, .question-catalog td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.question-catalog th {
+    background-color: #f2f2f2;
+}
+
+.question-catalog .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: red;
+    font-size: 18px;
+}
+
+.question-catalog .delete-button:hover {
+    color: darkred;
+}
