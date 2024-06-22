@@ -97,8 +97,10 @@ function AddQuestion() {
                         onChange={(e) => setSubject(e.target.value)}>
                             
                         <option value="Mathematik">Mathematik</option>
-                        <option value="Geografie">Geografie</option>
-                        <option value="Geschichte">Geschichte</option>
+                        <option value="Informatik">Informatik</option>
+                        <option value="Maschinenbau">Maschinenbau</option>
+                        <option value="Wirtschaftswissenschaften">Wirtschaftswissenschaften</option>
+                        <option value="Allgemeinwissen">Allgemeinwissen</option>
                     </select>
 
                 </div>

@@ -126,8 +126,10 @@ function StartPage() {
                     <label>Fach:</label>
                     <select value={subject} onChange={(e) => setSubject(e.target.value)}>
                         <option value="Mathematik">Mathematik</option>
-                        <option value="Geografie">Geografie</option>
-                        <option value="Geschichte">Geschichte</option>
+                        <option value="Informatik">Informatik</option>
+                        <option value="Maschinenbau">Maschinenbau</option>
+                        <option value="Wirtschaftswissenschaften">Wirtschaftswissenschaften</option>
+                        <option value="Allgemeinwissen">Allgemeinwissen</option>
                     </select>
                 </div>
                 <div className="create-room-container">
