@@ -17,6 +17,7 @@ CREATE TABLE Questions (
     wrong_answer2 VARCHAR(255) NOT NULL,
     difficulty ENUM('Leicht', 'Mittel', 'Schwer') NOT NULL,
     created_by INT NOT NULL,
+    subject ENUM('Mathematik', 'Informatik', 'Maschinenbau', 'Wirtschaftswissenschaften', 'Allgemeinwissen') NOT NULL,
     FOREIGN KEY (created_by) REFERENCES Users(id)
 );
 
@@ -66,3 +67,5 @@ ADD COLUMN subject ENUM('Mathematik', 'Geografie', 'Geschichte') NOT NULL;
 
 ALTER TABLE Rooms
 ADD COLUMN subject ENUM('Mathematik', 'Geografie', 'Geschichte') NOT NULL;
+
+DROP TABLE Questions;
